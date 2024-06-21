@@ -6,6 +6,8 @@ SQL
 select encode(data_b::bytea, 'hex') from table limit 1;
 ```
 
+Python
+
 ```python
 import json
 from decode_data_b import PaserDataByterrayForMapping
